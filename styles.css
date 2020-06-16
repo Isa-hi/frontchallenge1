@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 0%, 98%);
+}
+
+header {
+  max-width: 500px;
+  text-align: center;
+  margin: 50px auto;
+}
+
+h1 {
+  font-weight: 200;
+  margin: 0;
+}
+
+h1.strong {
+  font-weight: 600;
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+.boxes {
+  background-color: white;
+  padding: 30px;
+  width: 350px;
+  margin: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 7px;
+}
+
+.boxes p {
+  font-size: 15px;
+}
+
+.boxes h3 {
+  margin: 0;
+}
+
+.boxes img {
+  display: block;
+  margin-left:auto;
+  margin-top: 20px;
+}
+
+.box-push {
+  transform: translateY(50%);
+}
+
+.supervisor-box {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.team-builder-box {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.karma-box {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.calculator-box {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+@media (max-width: 775px) {
+  .box-push {
+    transform: translateY(0);
+  }
+
+}
